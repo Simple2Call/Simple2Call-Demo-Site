@@ -1,15 +1,312 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
+}
+
+.page {
+  background-color: #121212;
+  border-radius: 1rem;
+  height: 40rem;
 }
 
 .navbar {
-  background-color: #3b3891;
+  background-color: #fff;
+}
+
+.my-navbar a {
+  color: black;
+  font-weight: 500;
+}
+
+.tagline-1 {
+  font-size: 2.5rem;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  padding-left: 4rem;
+  width: 45%;
+  background-image: linear-gradient(to left, #4facfe, #00f2fe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: calc();
+}
+
+.subtitle {
+  width: 530px;
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding-left: 4rem;
+  color: #eeeeee;
+}
+
+/* .tagline-2 span {
+  background: #40c4ff; 
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.3rem;
+  font-family: "Inter", sans-serif;
+  color: linear-gradient(150deg, #9c09db, #1c0fd7) !important;
+} */
+
+.logo {
+  font-size: 35px;
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  background-color: #039be5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
 }
 
 .site-name {
   font-size: 1.5rem;
-  font-family: "Lora", serif;
+  font-family: "Inter", sans-serif;
+  color: black;
+  font-weight: 600;
 }
+
+.welcome-section {
+  position: relative;
+}
+
+.welcome-section::after {
+  content: "";
+  display: block;
+  height: 28rem;
+  width: 28rem;
+  background: url(../svgs/Group.svg) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 4rem;
+  right: 2rem;
+  z-index: 0;
+}
+
+.title-block {
+  margin-top: 180px;
+}
+
+/******************** Our Spaciality Section Starts **********************/
+
+.spaciality-section {
+  margin-top: 7rem;
+  color: #121212;
+  margin-bottom: 6rem;
+}
+
+.spaciality-section-title {
+  font-size: 2.2rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+.spaciality-section-header hr {
+  margin-left: 23rem;
+  margin-right: 23rem;
+  margin-bottom: 5rem;
+  height: 0.2rem;
+  border-radius: 10rem;
+  color: #01579b;
+}
+
+.spaciality-icon {
+  border-radius: 1.5rem;
+  width: 6rem;
+  height: 6rem;
+  color: #fff;
+  background: #540cfa;
+  text-align: center;
+  line-height: 6rem;
+  display: inline-block;
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
+}
+
+.spaciality-1 {
+  background: #001e3c !important;
+  box-shadow: 0 8px 6px rgba(36, 8, 128, 0.2);
+  opacity: 0.5;
+}
+
+.spaciality-2 {
+  background: #e64a19 !important;
+  box-shadow: 0 8px 6px rgba(36, 8, 128, 0.2);
+}
+.spaciality-3 {
+  background: #303f9f !important;
+  box-shadow: 0 8px 6px rgba(36, 8, 128, 0.2);
+}
+
+.spaciality-4 {
+  background: #c2185b !important;
+  box-shadow: 0 8px 6px rgba(36, 8, 128, 0.2);
+}
+
+.spaciality-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #212121;
+}
+
+/******************** Our Spaciality Section Ends **********************/
+
+/******************** What We Offer Section Starts **********************/
+
+/*************** Card One Starts **************/
+
+.what-we-offer-section-title {
+  font-size: 2.2rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+.what-we-offer-container-1 {
+  height: 100%;
+  background: #e91e63;
+  border-radius: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 4.7rem;
+}
+
+.profile-card-4 h5 {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.what-we-offer-card-1 {
+  height: 28rem;
+  margin-bottom: 10rem;
+  background-color: #fff;
+  border-radius: 3rem;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.what-we-offer-card-1 i {
+  color: #00c853;
+  margin-right: 0.3rem;
+}
+
+.card-content-1 {
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.card-title-1 {
+  color: #fff;
+  margin-bottom: 2.5rem;
+}
+
+/*************** Card One Ends **************/
+
+/*************** Card Two Starts **************/
+
+.what-we-offer-section-title {
+  font-size: 2.2rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+.what-we-offer-container-2 {
+  height: 100%;
+  background: #ffcdd2;
+  border-radius: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 4.7rem;
+}
+
+.profile-card-4 h5 {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.what-we-offer-card-2 {
+  height: 28rem;
+  margin-bottom: 10rem;
+  background-color: #fff;
+  border-radius: 3rem;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.what-we-offer-card-2 i {
+  color: #00c853;
+  margin-right: 0.3rem;
+}
+
+.card-content-2 {
+  font-size: 1.1rem;
+  color: #000000;
+}
+
+.card-title-2 {
+  color: #000000;
+  margin-bottom: 2.5rem;
+}
+
+/*************** Card Two Ends **************/
+
+/*************** Card Three Starts **************/
+
+.what-we-offer-section-title {
+  font-size: 2.2rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+.what-we-offer-container-3 {
+  height: 100%;
+  background: #ffcdd2;
+  border-radius: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 4.7rem;
+}
+
+.profile-card-4 h5 {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.what-we-offer-card-3 {
+  height: 28rem;
+  margin-bottom: 10rem;
+  background-color: #fff;
+  border-radius: 3rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.what-we-offer-card-3 i {
+  color: #00c853;
+  margin-right: 0.3rem;
+}
+
+.card-content-3 {
+  font-size: 1.1rem;
+  color: #000000;
+}
+
+.card-title-3 {
+  color: #000000;
+  margin-bottom: 2.5rem;
+}
+
+/*************** Card Three Ends **************/
+
+/******************** What We Offer Section Ends **********************/
