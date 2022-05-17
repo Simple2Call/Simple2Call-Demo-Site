@@ -225,6 +225,7 @@ body {
 .what-we-offer-card-2 {
   height: 28rem;
   margin-bottom: 10rem;
+  margin-left: 0.5rem;
   background-color: #fff;
   border-radius: 3rem;
   box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
@@ -351,3 +352,161 @@ body {
   padding-left: 6rem;
   padding-right: 6rem;
 }
+
+/******************** Who We Are Section Ends **********************/
+
+/******************** Our Customer Section Starts **********************/
+
+.customer-section {
+  margin-bottom: 10rem;
+}
+
+.customer-section-title {
+  margin-bottom: 7rem;
+}
+
+.logo-1 {
+  width: 5rem;
+  height: 5rem;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: cubic-bezier();
+}
+
+.logo-1:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+  transform: matrix3d();
+}
+
+.logo-2 {
+  width: 5rem;
+  height: 5rem;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: calc();
+}
+
+.logo-2:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+  transform: matrix();
+}
+
+.logo-3 {
+  width: 5rem;
+  height: 5rem;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: calc();
+}
+
+.logo-3:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+  transform: matrix();
+}
+
+.logo-4 {
+  width: 5rem;
+  height: 5rem;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: calc();
+}
+
+.logo-4:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+  transform: matrix();
+}
+
+.logo-5 {
+  width: 5rem;
+  height: 5rem;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: calc();
+}
+
+.logo-5:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+  transform: matrix();
+}
+
+.logo-6 {
+  width: 5rem;
+  height: 5rem;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: calc();
+}
+
+.logo-6:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+  transform: matrix();
+}
+
+.logo-7 {
+  width: 5rem;
+  height: 5rem;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: calc();
+}
+
+.logo-7:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+  transform: matrix();
+}
+
+.logo-8 {
+  width: 5rem;
+  height: 5rem;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: calc();
+}
+
+.logo-8:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+  transform: matrix();
+}
+
+.logo-9 {
+  width: 7rem;
+  height: 5rem;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: calc();
+}
+
+.logo-9:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+  transform: matrix();
+}
+
+/******************** Our Customer Section Ends **********************/
