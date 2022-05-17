@@ -302,6 +302,24 @@ body {
   margin-bottom: 2.5rem;
 }
 
+.what-we-offer-card-1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(178, 235, 242, 0.7),
+    0 4px 8px rgba(178, 235, 242, 1);
+}
+
+.what-we-offer-card-2:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(240, 244, 195, 0.7),
+    0 4px 8px rgba(240, 244, 195, 1);
+}
+
+.what-we-offer-card-3:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(255, 224, 178, 0.7),
+    0 4px 8px rgba(255, 224, 178, 1);
+}
+
 /*************** Card Three Ends **************/
 
 /******************** What We Offer Section Ends **********************/
