@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
 
 body {
   font-family: "Inter", sans-serif;
@@ -90,25 +91,18 @@ body {
 
 /******************** Our Spaciality Section Starts **********************/
 
+/* spaciality-section-title */
+
 .spaciality-section {
-  margin-top: 7rem;
+  margin-top: 10rem;
   color: #121212;
-  margin-bottom: 6rem;
 }
 
 .spaciality-section-title {
   font-size: 2.2rem;
   font-family: "Inter", sans-serif;
   font-weight: 600;
-}
-
-.spaciality-section-header hr {
-  margin-left: 23rem;
-  margin-right: 23rem;
-  margin-bottom: 5rem;
-  height: 0.2rem;
-  border-radius: 10rem;
-  color: #01579b;
+  margin-bottom: 8rem;
 }
 
 .spaciality-icon {
@@ -125,13 +119,12 @@ body {
 }
 
 .spaciality-1 {
-  background: #001e3c !important;
+  background: #d32f2f !important;
   box-shadow: 0 8px 6px rgba(36, 8, 128, 0.2);
-  opacity: 0.5;
 }
 
 .spaciality-2 {
-  background: #e64a19 !important;
+  background: #00796b !important;
   box-shadow: 0 8px 6px rgba(36, 8, 128, 0.2);
 }
 .spaciality-3 {
@@ -160,11 +153,13 @@ body {
   font-size: 2.2rem;
   font-family: "Inter", sans-serif;
   font-weight: 600;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
 }
 
 .what-we-offer-container-1 {
   height: 100%;
-  background: #e91e63;
+  background: #b2ebf2;
   border-radius: 3rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -189,17 +184,17 @@ body {
 }
 
 .what-we-offer-card-1 i {
-  color: #00c853;
+  color: #4caf50;
   margin-right: 0.3rem;
 }
 
 .card-content-1 {
   font-size: 1.1rem;
-  color: #fff;
+  color: #000000;
 }
 
 .card-title-1 {
-  color: #fff;
+  color: #000000;
   margin-bottom: 2.5rem;
 }
 
@@ -215,7 +210,7 @@ body {
 
 .what-we-offer-container-2 {
   height: 100%;
-  background: #ffcdd2;
+  background: #f0f4c3;
   border-radius: 3rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -240,7 +235,7 @@ body {
 }
 
 .what-we-offer-card-2 i {
-  color: #00c853;
+  color: #4caf50;
   margin-right: 0.3rem;
 }
 
@@ -266,7 +261,7 @@ body {
 
 .what-we-offer-container-3 {
   height: 100%;
-  background: #ffcdd2;
+  background: #ffe0b2;
   border-radius: 3rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -293,7 +288,7 @@ body {
 }
 
 .what-we-offer-card-3 i {
-  color: #00c853;
+  color: #4caf50;
   margin-right: 0.3rem;
 }
 
@@ -310,3 +305,31 @@ body {
 /*************** Card Three Ends **************/
 
 /******************** What We Offer Section Ends **********************/
+
+/******************** Who We Are Section Starts **********************/
+
+.who-we-are-title {
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-size: 4.5rem;
+  background-image: linear-gradient(to right, #fdc830, #f37335);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: calc();
+}
+
+.who-we-are-section {
+  margin-bottom: 10rem;
+  background: #000;
+  border-radius: 1rem;
+}
+
+.who-we-are-text {
+  font-size: 1.3rem;
+}
+
+.who-we-are-container {
+  height: 40rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
