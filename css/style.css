@@ -45,15 +45,6 @@ body {
   color: #eeeeee;
 }
 
-/* .tagline-2 span {
-  background: #40c4ff; 
-  padding-left: 1rem;
-  padding-right: 1rem;
-  border-radius: 0.3rem;
-  font-family: "Inter", sans-serif;
-  color: linear-gradient(150deg, #9c09db, #1c0fd7) !important;
-} */
-
 .logo {
   font-size: 35px;
   border-radius: 100px;
@@ -92,6 +83,15 @@ body {
 
 .title-block {
   margin-top: 180px;
+}
+
+.my-footer {
+  background: #000000;
+}
+
+.my-footer a {
+  border-radius: 10rem;
+  border: none;
 }
 
 /******************** Our Spaciality Section Starts **********************/
@@ -443,28 +443,6 @@ body {
   margin-bottom: 7rem;
 }
 
-/* .logo-9 {
-  width: 7rem;
-  height: 5rem;
-  filter: gray;
-  -webkit-filter: grayscale(1);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: calc();
-}
-
-.logo-9:hover {
-  filter: none;
-  -webkit-filter: grayscale(0);
-  -webkit-transform: scale(1.01);
-  transform: matrix();
-} */
-
-/*
-
-Sobat rahun roj roj bhandan karun maja nai 
-
-*/
-
 /******************** Why Choose Us Section Ends **********************/
 
 /******************** Our Customer Section Starts **********************/
@@ -477,71 +455,16 @@ Sobat rahun roj roj bhandan karun maja nai
   margin-bottom: 7rem;
 }
 
-.logo-1 {
+.customer-logo {
   width: 5rem;
   height: 5rem;
-}
-
-.logo-2 {
-  width: 5rem;
-  height: 5rem;
-}
-
-.logo-3 {
-  width: 5rem;
-  height: 5rem;
-}
-
-.logo-4 {
-  width: 8rem;
-  height: 4rem;
-  margin-top: 2rem;
-}
-
-.logo-5 {
-  width: 7rem;
-  height: 5rem;
-  margin-top: 2rem;
-}
-
-.logo-6 {
-  width: 8rem;
-  height: 5rem;
-  margin-top: 2rem;
-}
-
-.logo-7 {
-  width: 5rem;
-  height: 4rem;
-  margin-top: 2rem;
-}
-
-.logo-8 {
-  width: 7rem;
-  height: 4rem;
-  margin-top: 2rem;
-}
-
-.logo-9 {
-  width: 9rem;
-  height: 4rem;
-  margin-top: 2rem;
-}
-
-/* .logo-9 {
-  width: 7rem;
-  height: 5rem;
-  filter: gray;
-  -webkit-filter: grayscale(1);
   -webkit-transition: all 0.3s ease-in-out;
   transition: calc();
 }
 
-.logo-9:hover {
-  filter: none;
-  -webkit-filter: grayscale(0);
-  -webkit-transform: scale(1.01);
+.customer-logo:hover {
+  -webkit-transform: scale(1.2);
   transform: matrix();
-} */
+}
 
 /******************** Our Customer Section Ends **********************/
