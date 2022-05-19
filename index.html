@@ -34,46 +34,47 @@
   <body>
     <!---------------------- Navbar Start ---------------------->
 
-    <header class="header">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <!-- <img src="svgs/logo.svg" alt=""> -->
-          <span class="material-symbols-outlined mx-3 logo">
-            video_audio_call
-          </span>
-          <a class="navbar-brand site-name" href="#"> Simple2Call </a>
+    <nav class="sticky-top site-navbar navbar navbar-expand-lg">
+      <div class="container">
+        <a href="#">
+          <img
+            class="company-logo"
+            src="images/company-logo.png"
+            alt="Company Logo"
+          />
+        </a>
 
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div id="navbarSupportedContent" class="collapse navbar-collapse">
-            <ul class="navbar-nav ms-auto my-navbar">
-              <li class="nav-item">
-                <a class="nav-link mx-1" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-1" href="#">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-1" href="#">Careers</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-1" href="#">Our Team</a>
-              </li>
-            </ul>
-          </div>
+        <div id="navbarSupportedContent" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto my-navbar">
+            <li class="nav-item">
+              <a class="nav-link mx-1" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-1" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-1" href="#">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-1" href="#">Our Team</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+
     <!---------------------- Navbar Ends ---------------------->
 
     <!---------------------- Welcome Section Start ---------------------->
@@ -298,7 +299,7 @@
 
     <!----------------------- Who we are section Ends ------------------------>
 
-    <!----------------------- Our Customers section Ends ------------------------>
+    <!----------------------- Our Customers section Starts ------------------------>
     <div class="container">
       <section class="customer-section">
         <h1 class="customer-section-title text-center">
@@ -343,6 +344,57 @@
       </section>
     </div>
 
+    <!----------------------- Our Customers section Ends ------------------------>
+
+    <!----------------------- Why Choose Us section Starts ------------------------>
+
+    <div class="container">
+      <h1 class="why-choose-us-section-title text-center">
+        Why Choose Us
+      </h1>
+      <section class="why-choose-us-section">
+        <div class="why-choose-us-container-1">
+          <div class="row h-100">
+            <div class="col-lg-6 text-center my-auto">
+              <img class="why-img-1" src="images/why-3.png" alt="why-1" />
+              <div class="why-choose-us-title-1 text-white">
+                <h2 class="why-title mt-5">Top 3</h2>
+                <h3 class="why-text mt-3">Global Telecom Operators</h3>
+              </div>
+            </div>
+            <div class="col-lg-6 text-center my-auto">
+              <img class="why-img-2" src="images/why-2.png" alt="why-2" />
+              <div class="why-choose-us-title-2 text-white">
+                <h2 class="why-title mt-5">Top 4</h2>
+                <h3 class="why-text mt-3">Global UC Providers</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="why-choose-us-container-2">
+          <div class="row h-100">
+            <div class="col-lg-6 text-center my-auto">
+              <img class="why-img-3" src="images/why-1.png" alt="why-3" />
+              <div class="why-choose-us-title-3 text-white">
+                <h2 class="why-title mt-5">1M+</h2>
+                <h3 class="why-text mt-3">Conferences per month</h3>
+              </div>
+            </div>
+            <div class="col-lg-6 text-center my-auto">
+              <img class="why-img-4" src="images/why-4.png" alt="why-4" />
+              <div class="why-choose-us-title-4 text-white">
+                <h2 class="why-title mt-5">500+</h2>
+                <h3 class="why-text mt-3">Multinationals and Enterprises</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!----------------------- Why Choose Us section Ends ------------------------>
+
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
@@ -351,5 +403,3 @@
     ></script>
   </body>
 </html>
-
-

@@ -11,13 +11,18 @@ body {
   height: 40rem;
 }
 
-.navbar {
-  background-color: #fff;
-}
-
 .my-navbar a {
   color: black;
   font-weight: 500;
+}
+
+.site-navbar {
+  background-color: #fff;
+}
+
+.company-logo {
+  height: 4rem;
+  width: 10rem;
 }
 
 .tagline-1 {
@@ -331,7 +336,7 @@ body {
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
   font-size: 4.5rem;
-  background-image: linear-gradient(to right, #fdc830, #f37335);
+  background: #00e5ff;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: calc();
@@ -355,145 +360,90 @@ body {
 
 /******************** Who We Are Section Ends **********************/
 
-/******************** Our Customer Section Starts **********************/
+/******************** Why Choose Us Section Starts **********************/
 
-.customer-section {
+.why-choose-us-section {
   margin-bottom: 10rem;
+  background: #000;
+  border-radius: 1rem;
 }
 
-.customer-section-title {
+.why-choose-us-container-1 {
+  height: 25rem;
+  padding-top: 1rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.why-choose-us-container-2 {
+  height: 25rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-bottom: none;
+  margin: none;
+}
+
+.why-title {
+  font-size: 2rem;
+}
+
+.why-text {
+  font-size: 1.5rem;
+}
+
+.why-img-1 {
+  height: 5rem;
+  width: 5rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: calc();
+}
+
+.why-img-1:hover {
+  -webkit-transform: scale(1.5);
+  transform: matrix();
+}
+
+.why-img-2 {
+  height: 5rem;
+  width: 5rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: calc();
+}
+
+.why-img-2:hover {
+  -webkit-transform: scale(1.5);
+  transform: matrix();
+}
+
+.why-img-3 {
+  height: 5rem;
+  width: 5rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: calc();
+}
+
+.why-img-3:hover {
+  -webkit-transform: scale(1.5);
+  transform: matrix();
+}
+
+.why-img-4 {
+  height: 5rem;
+  width: 5rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: calc();
+}
+
+.why-img-4:hover {
+  -webkit-transform: scale(1.5);
+  transform: matrix();
+}
+
+.why-choose-us-section-title {
   margin-bottom: 7rem;
 }
 
-.logo-1 {
-  width: 5rem;
-  height: 5rem;
-  filter: gray;
-  -webkit-filter: grayscale(1);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: cubic-bezier();
-}
-
-.logo-1:hover {
-  filter: none;
-  -webkit-filter: grayscale(0);
-  -webkit-transform: scale(1.01);
-  transform: matrix3d();
-}
-
-.logo-2 {
-  width: 5rem;
-  height: 5rem;
-  filter: gray;
-  -webkit-filter: grayscale(1);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: calc();
-}
-
-.logo-2:hover {
-  filter: none;
-  -webkit-filter: grayscale(0);
-  -webkit-transform: scale(1.01);
-  transform: matrix();
-}
-
-.logo-3 {
-  width: 5rem;
-  height: 5rem;
-  filter: gray;
-  -webkit-filter: grayscale(1);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: calc();
-}
-
-.logo-3:hover {
-  filter: none;
-  -webkit-filter: grayscale(0);
-  -webkit-transform: scale(1.01);
-  transform: matrix();
-}
-
-.logo-4 {
-  width: 5rem;
-  height: 5rem;
-  filter: gray;
-  -webkit-filter: grayscale(1);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: calc();
-}
-
-.logo-4:hover {
-  filter: none;
-  -webkit-filter: grayscale(0);
-  -webkit-transform: scale(1.01);
-  transform: matrix();
-}
-
-.logo-5 {
-  width: 5rem;
-  height: 5rem;
-  filter: gray;
-  -webkit-filter: grayscale(1);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: calc();
-}
-
-.logo-5:hover {
-  filter: none;
-  -webkit-filter: grayscale(0);
-  -webkit-transform: scale(1.01);
-  transform: matrix();
-}
-
-.logo-6 {
-  width: 5rem;
-  height: 5rem;
-  filter: gray;
-  -webkit-filter: grayscale(1);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: calc();
-}
-
-.logo-6:hover {
-  filter: none;
-  -webkit-filter: grayscale(0);
-  -webkit-transform: scale(1.01);
-  transform: matrix();
-}
-
-.logo-7 {
-  width: 5rem;
-  height: 5rem;
-  filter: gray;
-  -webkit-filter: grayscale(1);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: calc();
-}
-
-.logo-7:hover {
-  filter: none;
-  -webkit-filter: grayscale(0);
-  -webkit-transform: scale(1.01);
-  transform: matrix();
-}
-
-.logo-8 {
-  width: 5rem;
-  height: 5rem;
-  filter: gray;
-  -webkit-filter: grayscale(1);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: calc();
-}
-
-.logo-8:hover {
-  filter: none;
-  -webkit-filter: grayscale(0);
-  -webkit-transform: scale(1.01);
-  transform: matrix();
-}
-
-.logo-9 {
+/* .logo-9 {
   width: 7rem;
   height: 5rem;
   filter: gray;
@@ -507,6 +457,75 @@ body {
   -webkit-filter: grayscale(0);
   -webkit-transform: scale(1.01);
   transform: matrix();
+} */
+
+/*
+
+Sobat rahun roj roj bhandan karun maja nai 
+
+*/
+
+/******************** Why Choose Us Section Ends **********************/
+
+/******************** Our Customer Section Starts **********************/
+
+.customer-section {
+  margin-bottom: 10rem;
+}
+
+.customer-section-title {
+  margin-bottom: 7rem;
+}
+
+.logo-1 {
+  width: 5rem;
+  height: 5rem;
+}
+
+.logo-2 {
+  width: 5rem;
+  height: 5rem;
+}
+
+.logo-3 {
+  width: 5rem;
+  height: 5rem;
+}
+
+.logo-4 {
+  width: 8rem;
+  height: 4rem;
+  margin-top: 2rem;
+}
+
+.logo-5 {
+  width: 7rem;
+  height: 5rem;
+  margin-top: 2rem;
+}
+
+.logo-6 {
+  width: 8rem;
+  height: 5rem;
+  margin-top: 2rem;
+}
+
+.logo-7 {
+  width: 5rem;
+  height: 4rem;
+  margin-top: 2rem;
+}
+
+.logo-8 {
+  width: 7rem;
+  height: 4rem;
+  margin-top: 2rem;
+}
+
+.logo-9 {
+  width: 9rem;
+  height: 4rem;
+  margin-top: 2rem;
 }
 
 /* .logo-9 {
